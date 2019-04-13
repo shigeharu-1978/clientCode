@@ -8,6 +8,8 @@ $('form').validate({
       email: true
     },
     tel: {
+      minlength: 7,
+      maxlength: 9,
       digits: true
     }
   }
